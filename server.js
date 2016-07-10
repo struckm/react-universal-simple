@@ -22,5 +22,5 @@ app.get('/', function(request, response) {
 var PORT = 3000;
 
 app.listen(PORT, function() {
-    console.log('http://localhost:3000');
+    console.log('listening on http://localhost:3000');
 });
